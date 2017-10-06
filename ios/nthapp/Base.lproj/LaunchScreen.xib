@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="JgN-wX-M69">
+                    <rect key="frame" x="188" y="212" width="105" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="JgN-wX-M69" secondAttribute="height" multiplier="15:8" id="PTW-VY-9XQ"/>
+                        <constraint firstAttribute="height" constant="56" id="VsV-xU-OI5"/>
+                        <constraint firstAttribute="width" constant="105" id="dxM-xM-eSS"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.8666666666666667" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JgN-wX-M69" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="K4y-O3-5sc"/>
+                <constraint firstItem="JgN-wX-M69" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Xau-Rk-Bk2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AppLogoWhite" width="400" height="152"/>
+    </resources>
+</document>
